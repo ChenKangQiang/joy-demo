@@ -1,4 +1,4 @@
-package com.dianping.joy.demo.biz;
+package com.dianping.joy.demo.biz.demo;
 
 /**
  * @Description:

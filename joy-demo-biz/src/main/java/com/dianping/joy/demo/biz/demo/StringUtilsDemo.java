@@ -1,4 +1,4 @@
-package com.dianping.joy.demo.biz;
+package com.dianping.joy.demo.biz.demo;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;

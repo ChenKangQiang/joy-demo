@@ -1,4 +1,4 @@
-package com.dianping.joy.demo.biz;
+package com.dianping.joy.demo.biz.demo;
 
 
 import com.alibaba.fastjson.JSON;
@@ -12,7 +12,7 @@ import org.apache.commons.text.StringEscapeUtils;
  * @Author: chenkangqiang
  * @Date: 2018/6/15
  */
-public class Demo {
+public class UnicodeDemo {
 
     public static void main(String[] args) {
         System.out.println(StringEscapeUtils.escapeJava("哈哈"));
