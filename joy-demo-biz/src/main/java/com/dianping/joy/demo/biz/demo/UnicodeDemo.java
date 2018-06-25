@@ -17,6 +17,8 @@ public class UnicodeDemo {
     public static void main(String[] args) {
         System.out.println(StringEscapeUtils.escapeJava("哈哈"));
         System.out.println("\\u54C8\\u54C8");
+        System.out.println("￥: " + StringEscapeUtils.escapeJava("￥"));
+        System.out.println("\uFFE5");
 
         System.out.println(JSON.toJSONString(new Dog(), SerializerFeature.BrowserCompatible));
         System.out.println(JSON.toJSONString(new Dog()));
